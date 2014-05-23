@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted Access for Graphite"
+AuthUserFile /var/www/.htpasswd
+Require user Admin
